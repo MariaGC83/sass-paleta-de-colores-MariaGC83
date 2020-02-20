@@ -1,0 +1,45 @@
+//CARD
+//-----------------
+
+@each $a, $b, $c in $brand-colors {
+  .card--#{$a} .card__color { 
+    background-color: #{$b};
+  }
+  .card--#{a} .card__desc--name::after {
+    content: #{$c};
+  }
+ }
+
+.card {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 12px;
+  border-color: #eee;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(#000, 0.075);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+  &__color {
+    height: 80px;
+    border-radius: 3px;
+  }
+  
+  
+  &__details {
+
+  }
+
+  &__term {
+    font-weight: bold;
+    color: #666;
+  }
+  &__desc {
+    color: #999;
+  }
+}
+
+

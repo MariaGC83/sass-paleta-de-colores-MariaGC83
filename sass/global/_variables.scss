@@ -1,0 +1,18 @@
+//VARIABLES----------
+//-------------------
+
+//Colors
+//-------------------
+
+$color-primary: #d9f5e8; // Mint
+$color-success: #37cbc2; // Teal
+$color-warning: #fb3;    // Gold
+$color-danger:  #ff6347; // Tomato
+
+$brand-colors: (
+  ('primary', $color-primary, 'Mint'),
+  ('success', $color-success,'Teal'),
+  ('warning',$color-warning, 'Gold'),
+  ('danger', $color-danger,'Tomato'),
+); 
+
